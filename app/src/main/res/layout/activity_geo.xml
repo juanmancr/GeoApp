@@ -1,0 +1,74 @@
+juanchirejon<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.juanchirejon.android.geoapp.GeoActivity">
+
+    <TextView
+        android:id="@+id/texto_pregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textopregunta"
+        android:padding="36dp"
+        android:layout_marginBottom="16dp"
+        style="?android:listSeparatorTextViewStyle"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/BotonCierto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_cierto"
+            android:layout_margin="16dp"/>
+
+        <Button
+            android:id="@+id/BotonFalso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_falso"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/botonVerRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_ver_respuesta"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/BotonAnterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_anterior"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="16dp"/>
+
+        <Button
+            android:id="@+id/BotonSiguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_siguiente"
+            android:layout_alignParentRight="true"
+            android:layout_margin="16dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
